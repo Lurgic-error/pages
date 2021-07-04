@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+body {
+  font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+  background-color: #18071B;
+  color: #FFFFFF;
+}
+
+/* Demo Specific Styles */
+body {
+  line-height: 1.2;
+  padding: 0 2em;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    padding: 0 1em;
+  }
+}
+
+.heading {
+  font-size: 4rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media screen and (max-width: 320px) {
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-family: 'Vollkorn', serif;
+  line-height: 1.4;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  background-color: #FFDA53;
+  color: #2F2032;
+  outline: none;
+  border: none;
+  padding: .5rem 1.25rem;
+  font-size: 1.2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.btn__cta {
+  color: white;
+  background-color: #2F2032;
+  margin-left: 1.25rem;
+}
+
+@media screen and (min-width: 320px) {
+  .btn__cta {
+    margin-top: .75rem;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style-3.css.map */

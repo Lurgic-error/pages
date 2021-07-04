@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+html {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Vollkorn', serif;
+  line-height: 1.4;
+}
+
+body {
+  background-color: #18071B;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    margin: 1rem;
+  }
+}
+
+.wrapper {
+  margin: 1.25rem;
+  width: 70%;
+}
+
+@media screen and (min-width: 320px) {
+  .wrapper {
+    margin: 0;
+  }
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.text-wrapper {
+  margin: 1.25rem 0;
+  text-justify: auto;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  background-color: #FFDA53;
+  color: #2F2032;
+  outline: none;
+  border: none;
+  padding: .5rem 1.25rem;
+  font-size: 1.2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.btn__cta {
+  color: white;
+  background-color: #2F2032;
+  margin-left: .75rem;
+}
+
+@media screen and (min-width: 320px) {
+  .btn__cta {
+    margin-top: .75rem;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
